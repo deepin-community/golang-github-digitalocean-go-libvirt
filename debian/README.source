@@ -1,0 +1,5 @@
+Upstream forked and modified the go-xdr library to extend handling of custom
+types (https://github.com/digitalocean/go-libvirt/pull/77). It's not possible to
+build with the already-packaged golang-github-davecgh-go-xdr.
+
+The forked code is located within the ./internal/go-xdr/ directory.

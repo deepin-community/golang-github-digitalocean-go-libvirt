@@ -1,5 +1,83 @@
-template-repository (1.0-1) unstable; urgency=medium
+golang-github-digitalocean-go-libvirt (0.0~git20240916.bff44a3-1) unstable; urgency=medium
 
-  * Initial release
+  * New upstream snapshot
 
- -- Tsic404 <liuheng@deepin.org>  Sat, 28 Jan 2023 13:46:49 +0800
+ -- Mathias Gibbens <gibmat@debian.org>  Fri, 04 Oct 2024 00:48:36 +0000
+
+golang-github-digitalocean-go-libvirt (0.0~git20240610.f66fb3c-1) unstable; urgency=medium
+
+  * New upstream snapshot
+  * Update Standards-Version to 4.7.0 in d/control (no changes needed)
+
+ -- Mathias Gibbens <gibmat@debian.org>  Fri, 21 Jun 2024 22:17:01 +0000
+
+golang-github-digitalocean-go-libvirt (0.0~git20240308.df736b2-1) unstable; urgency=medium
+
+  * New upstream snapshot
+    - Update Build-Depends and Depends
+
+ -- Mathias Gibbens <gibmat@debian.org>  Sun, 17 Mar 2024 15:16:36 +0000
+
+golang-github-digitalocean-go-libvirt (0.0~git20240220.fcabe97-1) unstable; urgency=medium
+
+  * New upstream snapshot
+  * d/control:
+    - Update Build-Depends and Depends
+    - Update Standards-Version to 4.6.2 (no changes needed)
+  * Update years in d/copyright
+
+ -- Mathias Gibbens <gibmat@debian.org>  Thu, 22 Feb 2024 23:50:17 +0000
+
+golang-github-digitalocean-go-libvirt (0.0~git20221122.e3cbf86-1) unstable; urgency=medium
+
+  * New upstream snapshot
+
+ -- Mathias Gibbens <gibmat@debian.org>  Sat, 03 Dec 2022 14:12:30 +0000
+
+golang-github-digitalocean-go-libvirt (0.0~git20221025.b17d505-1) unstable; urgency=medium
+
+  * New upstream snapshot
+  * Update my email address
+
+ -- Mathias Gibbens <gibmat@debian.org>  Fri, 28 Oct 2022 22:00:59 +0000
+
+golang-github-digitalocean-go-libvirt (0.0~git20220811.15feff0-1) unstable; urgency=medium
+
+  * New upstream snapshot
+
+ -- Mathias Gibbens <mathias@calenhad.com>  Sun, 28 Aug 2022 17:17:40 +0000
+
+golang-github-digitalocean-go-libvirt (0.0~git20220805.35b634c-3) unstable; urgency=medium
+
+  * Team upload
+  * Breaks golang-github-digitalocean-go-qemu-dev << 0.0~git20220804.2002801~
+
+ -- Shengjing Zhu <zhsj@debian.org>  Sat, 20 Aug 2022 15:24:14 +0800
+
+golang-github-digitalocean-go-libvirt (0.0~git20220805.35b634c-2) unstable; urgency=medium
+
+  * Team upload
+  * Remove unused Build-Depends
+    go:generate is not run during building, so exclude lvgen entirely.
+
+ -- Shengjing Zhu <zhsj@debian.org>  Fri, 12 Aug 2022 22:57:23 +0800
+
+golang-github-digitalocean-go-libvirt (0.0~git20220805.35b634c-1) unstable; urgency=medium
+
+  * New upstream snapshot
+  * Update Standards-Version in d/control (no changes needed)
+  * Update years in d/copyright
+
+ -- Mathias Gibbens <mathias@calenhad.com>  Wed, 10 Aug 2022 22:36:33 +0000
+
+golang-github-digitalocean-go-libvirt (0.0~git20210615.eaff166-2) unstable; urgency=medium
+
+  * Include missing source files so autopkgtests can properly build
+
+ -- Mathias Gibbens <mathias@calenhad.com>  Thu, 06 Jan 2022 13:01:24 +0100
+
+golang-github-digitalocean-go-libvirt (0.0~git20210615.eaff166-1) unstable; urgency=medium
+
+  * Initial release (Closes: #1000604)
+
+ -- Mathias Gibbens <mathias@calenhad.com>  Thu, 09 Dec 2021 22:44:00 +0100
